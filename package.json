@@ -1,0 +1,31 @@
+{
+  "name": "electron-device-helper",
+  "version": "2.3.0",
+  "main": "./build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "escpos": "2.4.11",
+    "iconv-lite": "0.4.24",
+    "serialport": "6.2.2"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "3.3.0",
+    "@types/serialport": "7.0.1",
+    "@types/usb": "1.5.1",
+    "cz-conventional-changelog": "2.1.0",
+    "typescript": "^3.3.3333",
+    "usb": "1.5.0"
+  },
+  "optionalDependencies": {
+    "node-escpos-addon": "1.0.131",
+    "usb-detection": "4.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
